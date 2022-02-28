@@ -4,7 +4,7 @@ public class NameOfMonths2 {
 
     public static void main(String[] args) {
 
-        int number=5;
+        int number=2;
         String result= "";
 
        result=(number==1)? "January" :  (number==2)? "February" : (number==3)? "March" :  (number==4)? "April" :

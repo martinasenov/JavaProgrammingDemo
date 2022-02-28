@@ -12,7 +12,7 @@ public class GradeReport {
         0 ~ 59: failed
          */
 
-        int score = 135;
+        int score = 75;
 
         if(score >= 0 && score <= 100){ // if the score is valid (0 ~ 100 )
             // 5 possibilities: A, B, C, D, F
@@ -42,7 +42,7 @@ public class GradeReport {
                 result = "Excellent";
             }else if(score >= 80 ){ // false: score < 80
                 result = "Great";
-            }else if(score >= 70){ // false: score < 70
+            }else if(score >= 70){  // false: score < 70
                 result = "Good";
             }else if(score >= 60){// false: score < 60
                 result = "Passed";
@@ -62,3 +62,4 @@ public class GradeReport {
     }
 
 }
+
